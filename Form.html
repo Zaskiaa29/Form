@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h2>Form Elements</h2>
+    <form action="#" method="post">
+        
+        <!-- Input Text -->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>
+        
+        <!-- Input Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+        
+        <!-- Input Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+        
+        <!-- Radio Button -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <!-- Checkbox -->
+        <p>Hobbies:</p>
+        <input type="checkbox" id="sports" name="hobby" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobby" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="indian" name="hobby" value="indian">
+        <label for="Indian">Indian</label>
+        <br><br>
+        
+        <!-- Select Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="indonesia">Indonesia</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+        
+        <!-- Hidden Input -->
+        <input type="hidden" name="userid" value="12345">
+        
+        <!-- Disabled Input -->
+        <label for="disabled">Disabled Field:</label>
+        <input type="text" id="disabled" name="disabled" value="Cannot edit" disabled><br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
